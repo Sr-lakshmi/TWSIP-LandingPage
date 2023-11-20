@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbal plant website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1" style="color:#494234;height:30px; width:30px ; cursor: pointer;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#plants">Plants</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul> 
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+    </header>
+
+    <section id="home">
+
+        <div  class="left">
+            <div class="home-image ">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img1.jpeg" alt="Herbal1"></div>
+                        <div class="swiper-slide"><img src="img2.jpeg" alt="Herbal2"></div>
+                        <div class="swiper-slide"><img src="img3.jpeg" alt="Herbal3"></div> 
+                    </div> 
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev swb"></div>
+                    <div class="swiper-button-next swb"></div>
+                </div>
+            </div>
+            <div class="home-text">
+                <div class="home-subtext">
+                    <h1>Mystic Herbal World</h1>
+                    <p>Adding mysticism to your life with nature's touch</p>
+                </div>
+                <button >Dive deep</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="img4.jpeg" alt="Feature1">
+                </div>
+                <div class="inner-box">
+                    <h3>Not Expensive</h3>
+                    <p>Add some colour to your house</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img5.jpeg" alt="Feature2">
+                </div>
+                <div class="inner-box">
+                    <h3>Pure air</h3>
+                    <p>Rethink freshness</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img6.jpeg" alt="Feature3">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>Include variation in your menu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        });
+    </script>
+
+    <section id="plants">
+
+        <div class="plant-container">
+            <div class="plant">
+                <img src="p1.jpeg" alt="Plant 1">
+                <h3>Tulsi</h3>
+                <p>The herb that heals, the plant that purifies, the basil that blesses</p>
+                <p class="rate">₹290.00</p>
+            </div>
+            <div class="plant">
+                <img src="p2.jpeg" alt="Plant 2">
+                <h3>Aloe Vera</h3>
+                <p>The plant that soothes, heals, and protects your skin, hair, and health</p>
+                <p class="rate">₹259.00</p>
+            </div>
+            <div class="plant">
+                <img src="p3.jpeg" alt="Plant 3">
+                <h3>Lavender</h3>
+                <p>The plant that soothes your senses, heals your wounds, and protects your health</p>
+                <p class="rate">₹329.00</p>
+            </div>
+            <div class="plant">
+                <img src="p4.jpeg" alt="Plant 4">
+                <h3>Calendula</h3>
+                <p>The plant that heals, soothes, and protects your skin, stomach, and health</p>
+                <p class="rate">₹149.00</p>
+            </div>
+            <div class="plant">
+                <img src="p5.jpeg" alt="Plant 5">
+                <h3>Basil</h3>
+                <p>The herb that boosts your immunity, soothes your inflammation, and protects your health</p>
+                <p class="rate">₹74.00</p>
+            </div>
+            <div class="plant">
+                <img src="p6.jpeg" alt="Plant 6">
+                <h3>Fenugreek</h3>
+                <p>The plant that nourishes, balances, and protects your body, mind, and spirit</p>
+                <p class="rate">₹59.00</p>
+            </div>
+            <div class="plant">
+                <img src="p7.jpeg" alt="Plant 7">
+                <h3>Rosemary</h3>
+                <p>The herb that boosts your immunity, soothes your inflammation, and protects your health</p>
+                <p class="rate">₹229.00</p>
+            </div>
+            <div class="plant">
+                <img src="p8.jpeg" alt="Plant 8">
+                <h3>Lemon Balm</h3>
+                <p>The plant that calms your nerves, boosts your brain, and protects your health</p>
+                <p class="rate">₹159.00</p>
+            </div>
+        </div>                                             
+    </section>
+
+    <section id="products">
+
+        <div class="product-container">
+            <div class="product">
+                <img src="pr1.jpeg" alt="Product 1">
+                <h3>Soap</h3>
+                <p>Pamper yourself with herbal soap, made with pure and organic ingredients</p>
+                <p class="rate">₹499.00 - 125g (Pack of 10)</p>
+            </div>
+            <div class="product">
+                <img src="pr2.jpeg" alt="Product 2">
+                <h3>Oil & Face wash</h3>
+                <p>The secret to healthy, shiny and beautiful hair & skin</p>
+                <p class="rate">₹279.00 - 100ml</p>
+            </div>
+            <div class="product">
+                <img src="pr3.jpeg" alt="Product 3">
+                <h3>Seeds</h3>
+                <p>A natural way to grow your own herbs and spices</p>
+                <p class="rate">₹275.00 - 100gm (1 Pkt)</p>
+            </div>
+            <div class="product">
+                <img src="pr4.jpeg" alt="Product 4">
+                <h3>Pain Balms</h3>
+                <p>A natural relief for your aches and pains</p>
+                <p class="rate">₹248.00 - 20gm (Pack of 4)</p>
+            </div>
+            <div class="product">
+                <img src="pr5.jpeg" alt="Product 5">
+                <h3>Capsules</h3>
+                <p>A natural way to boost your health and wellness</p>
+                <p class="rate">₹375.00 - 40 nos</p>
+            </div>
+            <div class="product">
+                <img src="pr6.jpg" alt="Product 6">
+                <h3>Bouquets</h3>
+                <p>A natural way to express your love and gratitude</p>
+                <p class="rate">₹199.00 - ₹3999.00 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+
+        <div class="order-container">
+            <h2>Place a Mystic Order</h2>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="plant">Select a Plant:</label>
+                    <select id="plant" name="plant">
+                        <option value="plant1">Tulsi</option>
+                        <option value="plant2">Aloe Vera</option>
+                        <option value="plant3">Lavender</option>
+                        <option value="plant4">Calendula</option>
+                        <option value="plant5">Basil</option>
+                        <option value="plant6">Fenugreek</option>
+                        <option value="plant7">Rosemary</option>
+                        <option value="plant8">Lemon Balm</option>
+                        <option value="plant9">Ashwangandha</option>
+                        <option value="plant10">Lemon Grass</option>
+                        <option value="plant11">None</option>
+                    </select>
+                    <label for="product">Select a Product:</label>
+                    <select id="product" name="product">
+                        <option value="product1">Soap</option>
+                        <option value="product2">Oil & Face wash</option>
+                        <option value="product3">Seeds</option>
+                        <option value="product4">Pain Balms</option>
+                        <option value="product5">Capsules</option>
+                        <option value="product6">Bouquets</option>
+                        <option value="product7">None</option>
+                    </select>   
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Plant Quantity:</label>
+                    <input style="width: 280px;;" type="number" id="quantity" name="quantity" min="1" value="1">
+                    <label for="quantity">Prouduct Quantity:</label>
+                    <input style="width: 280px;;" type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input style="width: 280px;;" type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input style="width: 280px;;" type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input style="width: 280px;;" type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group" style="display: flex ; align-items: center; justify-content: center ;">
+                    <button type="submit" id="submit-order">Confirm Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script>
+        document.getElementById("order-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const plant = document.getElementById("plant").value;
+            const product = document.getElementById("product").value;
+            const plantquantity = parseInt(document.getElementById("plant quantity").value);
+            const productquantity = parseInt(document.getElementById("product quantity").value);
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const orderDetails = `Plant: ${plant}\nProduct: ${product}\nPlant Quantity: ${plantquantity}\n
+            Product Quantity: ${productquantity}\nName: ${name}\nEmail: ${email}\nPhone: ${phone}`;
+            alert(`Order Details:\n\n${orderDetails}` ,'Your order has been finalised...!Have a healthy life..!');
+        });
+    </script>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+            <div class="about-description">
+                <h2>About Us</h2>
+                <div class="mission">
+                    <div class="about-image1">
+                        <img src="about1.jpg">
+                    </div>
+                    <h4>Our Mission</h4>
+                    <br>
+                    <p>Our mission is to provide quality herbal plants and products that promote natural 
+                        health, wellness, and beauty for our customers and the environment. We believe 
+                        that herbs are nature’s gift to us, and we want to share their benefits with 
+                        everyone. We grow our herbs organically, without using any harmful chemicals or 
+                        pesticides. We also make our products with pure and natural ingredients, without 
+                        any artificial colors or fragrances. We aim to offer the best herbal solutions 
+                        for your needs.
+                    </p>
+                </div>
+                <div class="story">
+                    <div class="about-image2">
+                        <img src="about2.jpeg">
+                    </div>
+                    <h4>Our Story</h4>
+                    <br>
+                    <p>Our story began with a passion for herbs and a vision to share their benefits with
+                         the world. We started as a small family-owned nursery, growing and selling a 
+                         variety of herbs for different purposes. Over the years, we expanded our nursery
+                          and our product range, offering herbal plants and products for health, wellness,
+                           and beauty. We are proud to be one of the leading herbal plant nurseries in 
+                           India, serving our customers and the environment.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <div class="contact-form">
+            <h2 style="text-align: center;">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <input id="text" name="message" placeholder="Share your thoughts"></input>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Feel free to reach out to us...!</h2>
+            <p>Mystic Herbal World , Velandipalayam , Coimbatore , Tamil Nadu </p>
+            <p>mysticherbal@gmail.com</p>
+            <p>9344866660</p>
+            <div class="social-links">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+        </div>     
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Mystic Herbal World. All rights reserved</p>
+    </footer>
+
+</body>
+</html>
+
+      
+
+
+    
